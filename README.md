@@ -2,13 +2,6 @@
 
 <div align="center">
   <br/>
-  <br/>
-  <br/>
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./docs/logo3.svg" alt="logo" width="400"  height="auto" />
-  <br/>
-  <br/>
-  <br/>
   <h1><b>TDD Solver Project</b></h1><a name="about-project"></a>
 </div>
 
@@ -215,7 +208,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Coming soon**
+- [ ] **Add Fibonacci methods**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
