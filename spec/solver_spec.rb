@@ -26,4 +26,24 @@ RSpec.describe Solver do
       expect(solve.reverse('hello')).to eq('olleh')
     end
   end
+
+  describe '#fizzbuzz' do
+    it 'return "fizz" for multiples of 3' do
+      expect(solve.fizzbuzz(3)).to eq('fizz')
+      expect(solve.fizzbuzz(9)).to eq('fizz')
+    end
+    it 'return "buzz" for multiples of 5' do
+      expect(solve.fizzbuzz(10)).to eq('buzz')
+      expect(solve.fizzbuzz(20)).to eq('buzz')
+    end
+    it 'return "fizzbuzz" for multiples of 3' do
+      expect(solve.fizzbuzz(15)).to eq('fizzbuzz')
+      expect(solve.fizzbuzz(30)).to eq('fizzbuzz')
+    end
+
+    it 'returns the number as sting for other cases' do
+      expect(solve.fizzbuzz(7)).to eq('7')
+      expect(solve.fizzbuzz(11)).to eq('11')
+    end
+  end
 end
