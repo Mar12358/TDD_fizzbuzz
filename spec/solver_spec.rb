@@ -18,4 +18,12 @@ RSpec.describe Solver do
       expect { solve.factorial(-1) }.to raise_error(ArgumentError, 'No factorial for negative numbers')
     end
   end
+
+  describe '#reverse' do
+    it 'return reversed word' do
+      expect(solve.reverse('sergio')).to eq('oigres')
+      expect(solve.reverse(' ')).to eq(' ')
+      expect(solve.reverse('hello')).to eq('olleh')
+    end
+  end
 end
